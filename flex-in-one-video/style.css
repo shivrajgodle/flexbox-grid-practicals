@@ -1,0 +1,36 @@
+.fcontainer{
+display: flex;
+border: 2px solid green;
+/* height: 45vh; */
+/* flex-direction: column; */
+/* flex-direction: row-reverse; */
+/* flex-direction: column-reverse; */
+/* justify-content: center; */
+/* justify-content: end; */
+/* align-items: center;
+align-items: flex-start; */
+/* align-items: flex-end; 
+justify-content: space-evenly; */
+/* flex-wrap: wrap; */
+/* flex-wrap: wrap-reverse; */
+/* flex-flow: column wrap; */
+}
+
+.fitem{
+background-color: blueviolet;
+margin: 12px;
+border: 2px solid black;
+width: 122px;
+height: 122px;
+}
+
+.item1{
+    order: 3;
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    align-self: center;
+}
+
+.item4{
+    order: 4;
+}
